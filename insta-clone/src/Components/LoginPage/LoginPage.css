@@ -1,0 +1,54 @@
+.loginpage__main {
+    display: flex;
+    margin-top: 7.7198937%;
+}
+
+.loginpage__logo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.loginpage__rightcomponent {
+    height: 350px;
+    width: 100;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    margin: auto;
+}
+.textInput{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+::placeholder{
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.textUser{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 2px;
+}
+
+.textPassword{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.LoginButton{
+    width: 225px;
+    height: 30px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 12px;
+}
