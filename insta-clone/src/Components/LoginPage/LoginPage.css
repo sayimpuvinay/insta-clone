@@ -23,32 +23,39 @@
 
 ::placeholder{
     font-size: 10px;
-    padding: 10px;
 }
 
 
 .textUser{
-    width: 220px;
-    height: 30px;
+    width: 195px;
+    height: 10px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     margin-bottom: 2px;
+    padding: 15px;
+    background-color: #f9f9f9;
 }
 
 .textPassword{
-    width: 220px;
-    height: 30px;
+    width: 195px;
+    height: 10px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     margin-top: 2px;
     margin-bottom: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
 }
 
 .LoginButton{
     width: 225px;
     height: 30px;
     border: 1px solid #DBDBDB;
-    border-radius: 3px;
+    border-radius: 7px;
     margin-top: 5px;
     font-size: 12px;
+    background-color: #77a7ff;
+    color: #ecf3ff ;
+    font-weight: 600;
 }
+
