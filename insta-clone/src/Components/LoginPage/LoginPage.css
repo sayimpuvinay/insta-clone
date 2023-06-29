@@ -10,23 +10,24 @@
 }
 
 .loginpage__rightcomponent {
-    height: 350px;
+    height: 370px;
     width: 100;
     border: 1px solid #DBDBDB;
     text-align: center;
     margin: auto;
 }
-.textInput{
+
+.textInput {
     margin-top: 3px;
     margin-bottom: 3px;
 }
 
-::placeholder{
+::placeholder {
     font-size: 10px;
 }
 
 
-.textUser{
+.textUser {
     width: 195px;
     height: 10px;
     border: 1px solid #DBDBDB;
@@ -36,7 +37,7 @@
     background-color: #f9f9f9;
 }
 
-.textPassword{
+.textPassword {
     width: 195px;
     height: 10px;
     border: 1px solid #DBDBDB;
@@ -47,7 +48,7 @@
     background-color: #f9f9f9;
 }
 
-.LoginButton{
+.LoginButton {
     width: 225px;
     height: 30px;
     border: 1px solid #DBDBDB;
@@ -55,7 +56,99 @@
     margin-top: 5px;
     font-size: 12px;
     background-color: #77a7ff;
-    color: #ecf3ff ;
+    color: #ecf3ff;
     font-weight: 600;
+}
+
+.orLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login_dividor {
+    width: 80px;
+    height: 0px;
+    margin-top: 10px;
+    border: 1px solid #DBDBDB;
+}
+
+.login_or {
+    margin: 0px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8E8E8E;
+}
+
+.login_fb {
+    color: #395185;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.login_forgot {
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.fb_img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.loginPage_signup {
+    margin-top: 20px;
+}
+
+.loginPage_downloadSection {
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+I .loginPage_option {
+    margin-top: 20px;
+}
+
+.loginPage_dwimg {
+    margin: 5px;
+}
+
+.loginpage_signupoption {
+    margin-top: 25px;
+    height:56px;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    background-color: white;
+    width: 350px;
+}
+
+.loginPage_signin{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.loginPage_signup {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.app_links{
+    margin-top: 20px;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: auto;
 }
 
