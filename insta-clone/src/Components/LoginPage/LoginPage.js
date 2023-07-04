@@ -21,9 +21,11 @@ class LoginPage extends Component {
                     </Grid>
                     <Grid item xs={3}>
                         <div className="loginpage__main">
+
                             <div>
                                 <img src={inst_image} width="350" height="500" alt="Instagram_Banner" />
                             </div>
+
                             <div>
                                 <div className="loginpage__rightcomponent">
                                     <img className="loginpage__logo" src={insta_logo} width="150" alt="Instagram_Logo" />
@@ -46,13 +48,18 @@ class LoginPage extends Component {
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div className="loginpage_signupoption">
+
                                     <div className="loginPage_signin">
                                         Don't have an account? Sign up
                                     </div>
+
                                     <div className="loginPage_signup">
                                         Get the App.
                                     </div>
+
                                     <div className="app_links">
                                         <img src={appstore} width="135px" />
                                         <img src={playstore} width="135px" />
@@ -61,9 +68,8 @@ class LoginPage extends Component {
                             </div>
                         </div>
 
-                        <Grid item xs={3}>
-
-                        </Grid>
+                    </Grid>
+                    <Grid item xs={3}>
 
                     </Grid>
                 </Grid>
