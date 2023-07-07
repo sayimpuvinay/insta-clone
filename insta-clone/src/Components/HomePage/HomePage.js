@@ -1,17 +1,20 @@
 import React, { Component } from "react";
 import './HomePage.css';
+import NavBar from "../NavBar/NavBar";
 
-class HomePage extends Component{
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
+class HomePage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
 
-    render() {
-        return(
-            <div>Hello world, I'm chitti. Speed 1Thz, Memory 1 ZB</div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <NavBar />
+      </div>
+    );
+  }
 }
 
-export default HomePage
+export default HomePage;

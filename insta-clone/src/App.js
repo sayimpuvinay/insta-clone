@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
 import LoginPage from './Components/LoginPage/LoginPage';
+import HomePage from './Components/HomePage/HomePage';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <LoginPage/>
-    </div>
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/home-page" element={<HomePage />} />
+    </Routes>
   );
 }
-
-// facebook hex code 1d3c78 
-
 export default App;
