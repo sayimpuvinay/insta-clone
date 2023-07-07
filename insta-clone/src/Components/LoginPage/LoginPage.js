@@ -41,7 +41,7 @@ class LoginPage extends Component {
                                             <div className="login_dividor"></div>
                                         </div>
                                         <div className="login_fb">
-                                            <img className="fb_img" src={fb} />Log in with Facebook </div>
+                                            <img className="fb_img" src={fb} alt="FB_Logo"/>Log in with Facebook </div>
                                         <div className="login_forgot">Forgot Password?</div>
                                         <div>
 
@@ -61,8 +61,8 @@ class LoginPage extends Component {
                                     </div>
 
                                     <div className="app_links">
-                                        <img src={appstore} width="135px" />
-                                        <img src={playstore} width="135px" />
+                                        <img src={appstore} width="135px" alt="AppStore"/>
+                                        <img src={playstore} width="135px" alt="PlayStore" />
                                     </div>
                                 </div>
                             </div>
