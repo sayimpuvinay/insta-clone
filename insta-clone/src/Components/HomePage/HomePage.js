@@ -12,6 +12,7 @@ class HomePage extends Component {
     return (
       <div>
         <NavBar />
+        nav bar is working
       </div>
     );
   }
